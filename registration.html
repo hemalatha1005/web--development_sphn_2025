@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+</head>
+<body>
+  <table align="center">
+    <tr>
+      <td>
+        <h1 align="center">Student Registration</h1>
+        <form>
+          <table cellpadding="6">
+            <tr>
+              <td>Roll no. * :</td>
+              <td><input type="text" name="rollno"></td>
+            </tr>
+            <tr>
+              <td>Student name * :</td>
+              <td><input type="text" name="studentname"></td>
+            </tr>
+            <tr>
+              <td>Father's name :</td>
+              <td><input type="text" name="fathername"></td>
+            </tr>
+            <tr>
+              <td>Date of Birth :</td>
+              <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+              <td>Mobile no. :</td>
+              <td><input type="text" name="mobile" maxlength="10"></td>
+            </tr>
+            <tr>
+              <td>Email id * :</td>
+              <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+              <td>Password :</td>
+              <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+              <td>Gender * :</td>
+              <td>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+              </td>
+            </tr>
+            <tr>
+              <td>Department * :</td>
+              <td>
+                <input type="checkbox" name="dept" value="CSE">CSE
+                <input type="checkbox" name="dept" value="IT">IT
+                <input type="checkbox" name="dept" value="ECE">ECE
+                <input type="checkbox" name="dept" value="Civil">Civil
+                <input type="checkbox" name="dept" value="Mech">Mech
+              </td>
+            </tr>
+            <tr>
+              <td>Course :</td>
+              <td>
+                <select name="course">
+                  <option>select courses</option>
+                  <option>B.Tech</option>
+                  <option>B.Sc</option>
+                  <option>B.A</option>
+                  <option>M.Tech</option>
+                  <option>M.Sc</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Student Photo * :</td>
+              <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+              <td>Nationality :</td>
+              <td>
+                <select name="nationality">
+                  <option>India</option>
+                  <option>Other</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>City :</td>
+              <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+              <td>Address * :</td>
+              <td><textarea name="address" rows="3" cols="25"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <input type="submit" value="Register">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </td>
+      <td>
+        <!-- Image on the right side of the form -->
+        <img src="assests/student.jpeg" alt="Student" width="400" height="500">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
