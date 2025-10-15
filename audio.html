@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio and Video Playback Tables</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      background: #f2f2f2;
+    }
+    h2 {
+      text-align: left;
+      margin-top: 32px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 18px auto;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th {
+      background: #e8e8e8;
+      font-weight: bold;
+    }
+    audio, video {
+      width: 98%;
+      margin: 3px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Audio Playback Table</h2>
+  <table>
+    <tr>
+      <th>SNO</th>
+      <th>Name of Audio</th>
+      <th>Play Bar</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Drums</td>
+      <td>
+        <audio controls>
+          <source src="tcp2-the-hunter-percloop-completesoundaudio-419181.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bird Sounds</td>
+      <td>
+        <audio controls>
+          <source src="birds-chirping-333912.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </td>
+    </tr>
+    <!-- Add more audio rows as needed -->
+  </table>
+
+  <h2>Video Playback Table</h2>
+  <table>
+    <tr>
+      <th>SNO</th>
+      <th>Name of Video</th>
+      <th>Play Bar</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nature Documentary</td>
+      <td>
+        <video controls height="120">
+          <source src="istockphoto-1818121258-640_adpp_is.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Fun Animation</td>
+      <td>
+        <video controls height="120">
+          <source src="130787-748398315_tiny.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </td>
+    </tr>
+    <!-- Add more video rows as needed -->
+  </table>
+
+</body>
+</html>
